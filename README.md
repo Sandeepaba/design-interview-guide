@@ -50,20 +50,56 @@ Coming Soon
 ## 📂 Folder Structure
 
 ```text
-src
+design-interview-guide/
 │
-├── assets
-│   └── images
+├── public/
 │
-├── components
-│   ├── ChapterCard
-│   ├── Navbar
-│   └── ScrollTopButton
+├── src/
+│   │
+│   |
+│   |── images/
+│   │     ├── chapter1.png
+│   │     ├── chapter2.png
+│   │     ├── chapter3.png
+│   │     ├── chapter4.png
+│   │     ├── chapter5.png
+│   │     ├── chapter6.png
+│   │     ├── chapter7.png
+│   │     └── chapter8.png
+│   │  
+│   │  
+│   │
+│   ├── components/
+│   │   │
+│   │   ├── Navbar/
+│   │   │   ├── Navbar.tsx
+│   │   │   └── Navbar.css
+│   │   │
+│   │   ├──
+│   │   │   ├── ChapterCard.tsx
+│   │   │   └── ChapterCard.css
+│   │   │
+│   │   └── ScrollTopButton/
+│   │       ├── ScrollTopButton.tsx
+│   │       └── ScrollTopButton.css
+│   │
+│   ├── data/
+│   │   └── chapters.ts
+│   │
+│   ├── App.tsx
+│   ├── App.css
+│   ├── main.tsx
+│   └── index.css
 │
-├── App.tsx
-├── App.css
-├── main.tsx
-└── index.css
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+├── tsconfig.app.json
+├── tsconfig.node.json
+├── vite.config.ts
+├── README.md
+└── index.html
 ```
 
 ---
