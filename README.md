@@ -1,32 +1,140 @@
-# React + TypeScript + Vite
+# 📘 Design Interview Guide
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A pixel-perfect and fully responsive Design Interview Guide built using React, TypeScript and Custom CSS.
 
-Currently, two official plugins are available:
+The project recreates a professional multi-chapter landing page inspired by a Figma design.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+---
 
-## React Compiler
+## 🚀 Live Demo
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Coming Soon
 
-## Expanding the Oxlint configuration
+---
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+## 📸 Preview
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+### Home Page
+
+(Add screenshot here)
+
+---
+
+## ✨ Features
+
+- Pixel Perfect UI
+- Fully Responsive
+- React + TypeScript
+- Custom CSS
+- Reusable Components
+- Smooth Scroll Navigation
+- Responsive Navbar
+- Hamburger Menu
+- Hide Navbar on Scroll Down
+- Show Navbar on Scroll Up
+- Scroll To Top Button
+- Clean Folder Structure
+
+---
+
+## 🛠 Tech Stack
+
+- React
+- TypeScript
+- Vite
+- CSS3
+- React Icons
+
+---
+
+## 📂 Folder Structure
+
+```text
+src
+│
+├── assets
+│   └── images
+│
+├── components
+│   ├── ChapterCard
+│   ├── Navbar
+│   └── ScrollTopButton
+│
+├── App.tsx
+├── App.css
+├── main.tsx
+└── index.css
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+---
+
+## 📖 Chapters
+
+- Chapter 1 – Build the Portfolio
+- Chapter 2 – Writing Case Studies
+- Chapter 3 – Portfolio Presentations
+- Chapter 4 – Resumes & Cover Letters
+- Chapter 5 – Find & Apply to Jobs
+- Chapter 6 – Preparing for Behavioral Interviews
+- Chapter 7 – Design Challenges
+- Chapter 8 – The Offer Stage
+
+---
+
+## ⚙️ Installation
+
+Clone the project
+
+```bash
+git clone https://github.com/Sandeepaba/design-interview-guide.git
+```
+
+Go inside the folder
+
+```bash
+cd design-interview-guide
+```
+
+Install packages
+
+```bash
+npm install
+```
+
+Run project
+
+```bash
+npm run dev
+```
+
+Build Project
+
+```bash
+npm run build
+```
+
+---
+
+## 🎯 Learning
+
+- React Components
+- TypeScript Props
+- Responsive Design
+- Smooth Scrolling
+- CSS Layout
+- Component Reusability
+- Modern Folder Structure
+
+---
+
+## 👨‍💻 Author
+
+### Sandeep Yadav
+
+Frontend Developer
+
+GitHub:
+https://github.com/Sandeepaba
+
+LinkedIn:
+(Add your LinkedIn URL)
