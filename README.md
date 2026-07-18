@@ -85,18 +85,15 @@ design-interview-guide/
 │
 ├── src/
 │   │
-│   |
-│   |── images/
-│   │     ├── chapter1.png
-│   │     ├── chapter2.png
-│   │     ├── chapter3.png
-│   │     ├── chapter4.png
-│   │     ├── chapter5.png
-│   │     ├── chapter6.png
-│   │     ├── chapter7.png
-│   │     └── chapter8.png
-│   │  
-│   │  
+│   ├── images/
+│   │   ├── chapter1.png
+│   │   ├── chapter2.png
+│   │   ├── chapter3.png
+│   │   ├── chapter4.png
+│   │   ├── chapter5.png
+│   │   ├── chapter6.png
+│   │   ├── chapter7.png
+│   │   └── chapter8.png
 │   │
 │   ├── components/
 │   │   │
@@ -104,31 +101,35 @@ design-interview-guide/
 │   │   │   ├── Navbar.tsx
 │   │   │   └── Navbar.css
 │   │   │
-│   │   ├──
+│   │   ├── ChapterCard/
 │   │   │   ├── ChapterCard.tsx
 │   │   │   └── ChapterCard.css
 │   │   │
-│   │   └── ScrollTopButton/
-│   │       ├── ScrollTopButton.tsx
-│   │       └── ScrollTopButton.css
+│   │   ├── ScrollTopButton/
+│   │   │   ├── ScrollTopButton.tsx
+│   │   │   └── ScrollTopButton.css
+│   │   │
+│   │   └── Cursor/
+│   │       ├── Cursor.tsx
+│   │       └── Cursor.css
 │   │
 │   ├── data/
 │   │   └── chapters.ts
 │   │
 │   ├── App.tsx
 │   ├── App.css
-│   ├── main.tsx
-│   └── index.css
+│   ├── index.css
+│   └── main.tsx
 │
 ├── .gitignore
+├── index.html
 ├── package.json
 ├── package-lock.json
+├── README.md
 ├── tsconfig.json
 ├── tsconfig.app.json
 ├── tsconfig.node.json
-├── vite.config.ts
-├── README.md
-└── index.html
+└── vite.config.ts
 ```
 
 -------------------------------------------------------------------
