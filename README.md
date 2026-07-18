@@ -4,39 +4,68 @@ A pixel-perfect and fully responsive Design Interview Guide built using React, T
 
 The project recreates a professional multi-chapter landing page inspired by a Figma design.
 
----
+------------------------------------------------------------------
 
 ## 🚀 Live Demo
 
-Coming Soon
+https://design-interview-guide-6rso.vercel.app/
 
----
+--------------------------------------------------------------------
 
-## 📸 Preview
-
-### Home Page
+## 📸 Preview Home Page
 <img src="./src//Screenshots/PrevHomePage1.png" width="100%">
 
-
----
+--------------------------------------------------------------------
 
 ## ✨ Features
 
-- Pixel Perfect UI
-- Fully Responsive
-- React + TypeScript
-- Custom CSS
-- Reusable Components
+- Pixel-Perfect UI Implementation
+- Fully Responsive Design (Desktop, Tablet & Mobile)
+- Built with React 18 + TypeScript
+- Functional Components & React Hooks
+- Reusable Component Architecture
+- Custom CSS Styling
 - Smooth Scroll Navigation
-- Responsive Navbar
-- Hamburger Menu
-- Hide Navbar on Scroll Down
-- Show Navbar on Scroll Up
-- Scroll To Top Button
+- Fixed Navigation Bar
+- Auto Hide Navbar on Scroll Down
+- Auto Show Navbar on Scroll Up
+- Responsive Hamburger Menu
+- Chapter Navigation with Smooth Scrolling
+- Scroll-To-Top Floating Button
+- Responsive Typography
 - Clean Folder Structure
+- Type-safe Component Props
+- Optimized Image Rendering
+- Cross Browser Compatible
 
----
+-------------------------------------------------------------------
 
+## 📝 Assumptions
+
+- Images are used as provided design assets.
+- All chapters are implemented as reusable React components.
+- Smooth scrolling is enabled for better navigation.
+- The layout is optimized for modern browsers.
+- Focus was placed on reusable architecture and responsiveness.
+
+--------------------------------------------------------------------
+## ⚡ Performance
+
+- Optimized React Component Rendering
+- Reusable Components
+- Lightweight CSS
+- Minimal Re-renders
+- Type-safe Development
+- Responsive Images
+
+-------------------------------------------------------------------------
+## 📱 Responsive Support
+
+- Desktop
+- Laptop
+- Tablet
+- Mobile
+--------------------------------------------------------------------------
 ## 🛠 Tech Stack
 
 - React
@@ -45,7 +74,7 @@ Coming Soon
 - CSS3
 - React Icons
 
----
+---------------------------------------------------------------------------
 
 ## 📂 Folder Structure
 
@@ -102,7 +131,7 @@ design-interview-guide/
 └── index.html
 ```
 
----
+-------------------------------------------------------------------
 
 ## 📖 Chapters
 
@@ -115,7 +144,7 @@ design-interview-guide/
 - Chapter 7 – Design Challenges
 - Chapter 8 – The Offer Stage
 
----
+-------------------------------------------------------------------
 
 ## ⚙️ Installation
 
@@ -124,7 +153,6 @@ Clone the project
 ```bash
 git clone https://github.com/Sandeepaba/design-interview-guide.git
 ```
-
 Go inside the folder
 
 ```bash
@@ -149,19 +177,19 @@ Build Project
 npm run build
 ```
 
----
+------------------------------------------------------
 
-## 🎯 Learning
+## 🎯 What I Learned
 
-- React Components
-- TypeScript Props
-- Responsive Design
-- Smooth Scrolling
-- CSS Layout
-- Component Reusability
-- Modern Folder Structure
+- Building reusable React components
+- Type-safe development with TypeScript
+- Responsive UI Design
+- CSS Layout Techniques
+- Smooth Scroll Navigation
+- Component Composition
+- Folder Structure Best Practices
 
----
+------------------------------------------------------
 
 ## 👨‍💻 Author
 
@@ -173,4 +201,5 @@ GitHub:
 https://github.com/Sandeepaba
 
 LinkedIn:
-(Add your LinkedIn URL)
+https://www.linkedin.com/in/sandeep-yadav-6729a8254/
+----------------------------------------------------------   ***** --------------------------------------------------------------
