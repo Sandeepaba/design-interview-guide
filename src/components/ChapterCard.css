@@ -1,0 +1,281 @@
+/* ==========================
+   Global
+========================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.chapter-card {
+    width: 100%;
+    overflow: hidden;
+}
+
+/* Common container */
+.chapter-container {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+/* ==========================
+   Top Section
+========================== */
+
+.chapter-top {
+    padding: 90px 24px;
+}
+
+.chapter-content {
+    max-width: 560px;
+}
+
+.chapter-number {
+    display: block;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 18px;
+}
+
+.chapter-content h1 {
+    font-size: 64px;
+    line-height: 1.1;
+    margin-bottom: 24px;
+    color: #111;
+}
+
+.chapter-content p {
+    font-size: 20px;
+    line-height: 1.7;
+    color: #333;
+}
+
+.chapter-image {
+    margin-top: 70px;
+}
+
+.chapter-image img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+}
+
+/* ==========================
+   Bottom Section
+========================== */
+
+.chapter-bottom {
+    background: #F6F2EB;
+    padding: 80px 24px;
+}
+
+/* Same width as heading */
+.chapter-bottom-content {
+    max-width: 560px;
+}
+
+.chapter-bottom h2 {
+    font-size: 40px;
+    color: #333;
+    margin-bottom: 28px;
+}
+
+.chapter-bottom ul {
+    padding-left: 22px;
+}
+
+.chapter-bottom li {
+    margin-bottom: 16px;
+}
+
+.chapter-bottom a {
+    color: #222;
+    text-decoration: underline;
+    font-size: 22px;
+    font-weight: 500;
+}
+
+/* ==========================
+   Dark Theme
+========================== */
+
+.chapter-top.dark .chapter-number,
+.chapter-top.dark h1,
+.chapter-top.dark p {
+    color: #fff;
+}
+
+/* ==========================
+   Chapter 3
+========================== */
+
+.chapter3-image img {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+/* ==========================
+   Chapter 4
+========================== */
+
+.chapter4-image img {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+
+/* ==========================
+   Chapter 5
+========================== */
+
+.chapter5-image img {
+    max-width: 780px;
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* ==========================
+   Chapter 6
+========================== */
+
+.chapter6-image {
+    display: flex;
+    justify-content: center;
+}
+
+.chapter6-image img {
+    width: 100%;
+    max-width: 760px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+/* ==========================
+   Chapter 8
+========================== */
+
+.chapter8-image {
+    display: flex;
+    justify-content: center;
+}
+
+.chapter8-image img {
+    width: 100%;
+    max-width: 760px;
+    display: block;
+    margin: 0 auto;
+}
+
+
+
+
+
+
+.arrow {
+    display: inline-block;
+    margin-left: 4px;
+}
+
+
+.chapter-list {
+    padding-left: 22px;
+}
+
+.chapter-list>li {
+    margin-bottom: 16px;
+}
+
+.sub-topic-list {
+    margin-top: 12px;
+    margin-left: 24px;
+}
+
+/* .sub-topic-list li {
+    margin-bottom: 12px;
+}
+
+.sub-topic-list a {
+    font-size: 20px;
+    font-weight: 500;
+} */
+
+
+.sub-topic-list li {
+    margin-bottom: 12px;
+}
+
+.sub-topic-list li a{
+    display:inline;
+    line-height:1.5;
+}
+
+.long-topic {
+    max-width: 360px;
+}
+
+.long-topic a {
+  display: inline-block;
+  max-width: 340px;
+}
+
+/* ==========================
+   Tablet
+========================== */
+
+@media (max-width: 992px) {
+
+    .chapter-top {
+        padding: 70px 24px;
+    }
+
+    .chapter-bottom {
+        padding: 70px 24px;
+    }
+
+    .chapter-content h1 {
+        font-size: 52px;
+    }
+
+    .chapter-content p {
+        font-size: 18px;
+    }
+
+}
+
+/* ==========================
+   Mobile
+========================== */
+
+@media (max-width:768px) {
+
+    .chapter-top {
+        padding: 50px 20px;
+    }
+
+    .chapter-bottom {
+        padding: 50px 20px;
+    }
+
+    .chapter-content h1 {
+        font-size: 38px;
+    }
+
+    .chapter-content p {
+        font-size: 17px;
+    }
+
+    .chapter-bottom h2 {
+        font-size: 30px;
+    }
+
+    .chapter-bottom a {
+        font-size: 18px;
+    }
+
+}
