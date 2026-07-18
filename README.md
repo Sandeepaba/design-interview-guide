@@ -8,7 +8,7 @@ The project recreates a professional multi-chapter landing page inspired by a Fi
 
 ## 🚀 Live Demo
 
-https://design-interview-guide-6rso.vercel.app/
+https://design-interview-guide-hs3g.vercel.app/
 
 --------------------------------------------------------------------
 
