@@ -15,8 +15,8 @@ Coming Soon
 ## 📸 Preview
 
 ### Home Page
+<img src="./src//Screenshots/PrevHomePage1.png" width="100%">
 
-(Add screenshot here)
 
 ---
 
