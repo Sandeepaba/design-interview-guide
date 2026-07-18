@@ -136,14 +136,14 @@ const ChapterCard = ({
                             if (typeof item === "string") {
                                 return (
                                     <li key={index}>
-                                        <a href="#">{item} →</a>
+                                        <a >{item} →</a>
                                     </li>
                                 );
                             }
 
                             return (
                                 <li key={index}>
-                                    <a href="#">{item.title} →</a>
+                                    <a >{item.title} →</a>
 
                                     {item.children && (
                                         <ul className="sub-topic-list">
@@ -152,7 +152,7 @@ const ChapterCard = ({
                                                     key={childIndex}
                                                     className={child.includes("Whiteboarding") ? "long-topic" : ""}
                                                 >
-                                                    <a href="#">{child} →</a>
+                                                    <a >{child} →</a>
                                                 </li>
                                             ))}
                                         </ul>

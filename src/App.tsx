@@ -1,4 +1,5 @@
 import ChapterCard from "./components/ChapterCard";
+import Cursor from "../src/Cursor/Cursor"
 
 
 import Navbar from "./components/Navbar/Navbar";
@@ -20,6 +21,8 @@ function App() {
     <>
 
       <Navbar />
+
+       <Cursor />
 
       <main style={{ paddingTop: "70px" }}>
         <section id="chapter1">

@@ -1,0 +1,28 @@
+.custom-cursor{
+
+position:fixed;
+
+width:30px;
+
+height:30px;
+
+border-radius:50%;
+
+background:rgba(216, 188, 131, 0.25);
+
+backdrop-filter:blur(6px);
+
+pointer-events:none;
+
+transform:translate(-50%,-50%);
+
+transition:left .08s linear,
+top .08s linear;
+
+z-index:99999;
+
+box-shadow:
+0 0 20px rgba(255,255,255,.5),
+0 0 60px rgba(255,255,255,.2);
+}
+
